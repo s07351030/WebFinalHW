@@ -1,0 +1,154 @@
+﻿body {
+    font-family: Helvetica, 'PingFang TC', "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: Helvetica, 'PingFang TC', "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
+    font-weight: 900;
+}
+
+label{
+
+}
+
+table, thead, td, th {
+    border: 3px solid rgb(82, 97, 119);
+    border-collapse: collapse;
+    font-family: Consolas, 微軟正黑體;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#expendtable, #revenuetable {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#myTabContent{
+    position:relative;
+}
+
+tbody {
+    background-color: bisque;
+}
+
+th {
+    background-color: cornflowerblue;
+    border:2px solid black;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+b {
+    font-size: 50px;
+}
+
+p {
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav.nav-tabs {
+    font-size: 20px;
+}
+
+.jumbotron.text-center {
+    background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), rgba(255,252,220,0.6)), url("https://www.ykkfastening.com/Portals/0/images/ch/sitemap/title_bg.jpg");
+}
+
+.banner {
+    padding-top: 1px;
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), rgba(255,252,220,0.6)), url("https://images.unsplash.com/photo-1625777719130-0a8e07086117?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+}
+
+a {
+    color: black;
+    font-size: 16px;
+}
+
+.wrapper {
+    height: 100%;
+    background: linear-gradient(to top, #ffcccc 12%, #ccff99 90%);
+}
+
+.box {
+    width: 300px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.glass {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #FFF;
+    border-radius: 25px;
+    padding: 1px 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+    .glass:hover {
+        animation: bigger 0.5s 0.5s forwards cubic-bezier(0, 1.18, 0.89, 1.01);
+    }
+
+@keyframes bigger {
+    0% {
+        width: 50px;
+        border-radius: 25px;
+    }
+
+    100% {
+        width: 300px;
+        border-radius: 25px;
+    }
+}
+
+.cross {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+.glass p {
+    margin: 0;
+    font-size: 30px;
+    position: absolute;
+    left: -160px;
+    font-weight: bold;
+    font-family: Helvetica, "PingFang TC", "Microsoft JhengHei","Microsoft Yahei", sans-serif !important;
+}
+
+.glass:hover p {
+    transition: all 1.5s 1.2s linear;
+    position: absolute;
+    left: 80px;
+}
